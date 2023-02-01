@@ -1,0 +1,39 @@
+@media only screen and (min-width: 300px){
+
+body{
+    background: rgb(2,0,36);
+    background: linear-gradient(360deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 72%);
+}
+.insert{
+    margin-left: 40%;
+    font-size: 20px;
+    padding:20px;
+}
+#control, #password, #confirm_password{
+    font-size: 20px;
+    border-radius:5px ;
+    border: 2px;
+    margin-top:5px ;
+}
+#cadastrar{
+    font-size: 20px;
+    border-radius:5px ;
+    margin-top: 50px;
+}
+h1{
+   text-align: center;
+   font-weight: bolder;
+   padding-top: 5%;
+   font-size: 30px;
+  
+}
+.cad{
+    display:flex;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+}
+#cadastrar:hover{
+    background-color: blue;
+    border-color: white;
+    color:white
+}

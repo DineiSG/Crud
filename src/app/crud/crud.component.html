@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>CADASTRO DE NOVO USUÁRIO</h1>
+
+    <form class="insert" action="/serv" method="post" (ngSubmit)="onSubmit()">
+    
+        <label>Nome</label>
+        <br>
+        <input type="text" name="nome" id="control"  placeholder="Nome" ng-required="required">
+        <br>
+        <br>
+        <label>Sexo</label>
+        <input type="radio" id="masc" name="masculino" value="M"/>M 
+        <input type="radio" id="fem" name="feminino" value="S"/>S
+        <br>
+        <br>
+        <label>Nascimento</label>
+        <br>
+        <input required="required"  type="date" name="data" id="control"  placeholder="Nome" >
+        <br>
+        <br>
+        <label>E-mail</label>
+        <br>
+        <input type="email" name="data" id="control" required="required" placeholder="E-mail" >
+        <br>
+        <br>
+        <label>Senha</label>
+        <br>
+        <input type="password" id="password" required="required" placeholder="Senha" >
+        <br>
+        <br>
+        <label>Confirmar Senha</label>
+        <br>
+        <input type="password" id="confirm_password" required="required" placeholder="Confirmar Senha" >
+        <br>
+        <br>
+        <a routerLink="/sucesso-cad"> <button type="submit" id="cadastrar" >Cadastrar Usuário</button></a>
+        <script>
+            
+        </script>
+    </form>
+
+</body>
+</html>
+ 

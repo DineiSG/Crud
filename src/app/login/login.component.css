@@ -1,0 +1,43 @@
+@media only screen and (min-width: 300px){
+
+    body{
+        background: rgb(2,0,36);
+        background: linear-gradient(360deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 72%);
+    }
+    .caixa{
+        border-radius: 5px;
+        padding: 10px 30px;
+        margin-left: 40%;
+        margin-top: 15%;
+        text-align: justify;
+        display: inline-block;
+    }
+    #dados{
+        font-size: 20px;
+        border-radius:5px ;
+        border: 2px;
+        margin-top:10px ;
+    }
+    .acesso{
+        margin-top:10px;
+        margin-bottom: 10px;
+        font-size: 20px;
+    }
+    header{
+        margin-bottom: 5px; 
+        font-weight: bolder;
+        padding-top: 5%;
+        font-size: 30px;
+    }
+    .acessar{
+        font-size: 20px;
+        border-radius:5px ;
+        border: 2px;
+        margin-top:10px ;
+    }
+    .acessar:hover{
+        background-color: blue;
+        color:white
+    }
+    
+}
