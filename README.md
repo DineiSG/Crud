@@ -1,4 +1,6 @@
 # Crud
+Projeto de um Crud básico. O Objetivo é treinar a criação deum CRUD e a cominicação com uma API a ser desenvolvida.
+
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.3.
 
